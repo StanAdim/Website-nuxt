@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div>
+  <div class="text-primary h1">
     Page: foo
   </div>
 </template>

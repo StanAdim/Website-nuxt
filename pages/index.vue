@@ -1,8 +1,10 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import TheCameraSlider from '~/components/pageChunks/TheCameraSlider.vue';
+</script>
 
 <template>
   <div class="text-primary h1">
-    Page: foo
+    <TheCameraSlider />
   </div>
 </template>
 

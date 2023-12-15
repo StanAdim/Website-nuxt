@@ -5,9 +5,8 @@
     </NuxtLayout>
   </div>
 </template>
-<script setup>
-   onMounted(()=>{
-      console.log($('body'));
-   })
+<script setup>  
+// import('./assets/js/script')
+// import('./assets/js/core.min')
 </script>
 

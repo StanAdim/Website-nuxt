@@ -5,8 +5,6 @@
     </NuxtLayout>
   </div>
 </template>
-<script setup>  
-// import('./assets/js/script')
-// import('./assets/js/core.min')
+<script setup> 
 </script>
 

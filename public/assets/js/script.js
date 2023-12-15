@@ -744,7 +744,7 @@
 		}
 
 		// Google maps
-		console.log('plugins.maps', plugins.maps);
+		// console.log('plugins.maps', plugins.maps);
 		if( plugins.maps.length ) {
 			var key;
 			for ( var i = 0; i < plugins.maps.length; i++ ) {

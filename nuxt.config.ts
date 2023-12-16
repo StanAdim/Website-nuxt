@@ -1,20 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  modules: ['@nuxtjs/tailwindcss'],
   app: {
     head: {
-       script: [  
+       'script': [  
            { tagPosition: 'bodyClose', src: '/assets/js/core.min.js' },
            { tagPosition: 'bodyClose', src: '/assets/js/script.js' },
+           { tagPosition: 'bodyClose', src: '/assets/js/app.js' },
            { tagPosition: 'bodyClose', src: '/assets/js/flexslider/jquery.flexslider.js' },
            { tagPosition: 'bodyClose', src: '/assets/js/flexslider/setting.js' },
-          //  {src: 'https://code.jquery.com/jquery-3.6.0.min.js',defer: true},
-          //  { src:"https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js",
-          //  integrity:"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q",
-          //  crossorigin:"anonymous", defer: true},
-          //  {src:"https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js",
-          //  integrity:"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl",
-          //  crossorigin:"anonymous",defer: true},
        ],
        link:[
         { rel:"stylesheet", type:"text/css",
@@ -30,6 +25,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/app.css',
       '~/assets/css/bootstrap.css',
       '~/assets/css/fonts.css',
+      '~/assets/css/auth.css',
       '~/assets/css/style.css',
       '~/assets/css/flexslider.css']
 })

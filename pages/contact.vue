@@ -1,5 +1,9 @@
-<script lang="ts" setup></script>
+<script  setup>
+useHead({
+    title:'ICTC - Contacts'
+})
 
+</script>
 <template>
   <div>
   <!-- Contact Info-->

@@ -5,21 +5,22 @@
         <!-- Slider -->
         <div class="row justify-content-between">
             <div class="col-md-10">
-                <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">                   
-                            <!-- <div data-src="">
+                <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">    
+                    <!-- foreach                -->
+                            <div data-src="/banners/EQD26m8PTVI8RDABCZzyHs6BdfJGy1.png">
                                 <div class="camera_caption fadeFromBottom">
                                     <a class="btn btn-primary btn-sm" style="text-transform:capitalize" href="">
-                                        &nbsp;&nbsp; $BDetails &nbsp;&nbsp;
+                                        &nbsp;&nbsp; camera_wrap camera_azure_skin &nbsp;&nbsp;
                                     </a>
                                 </div>
-                            </div> -->
+                            </div>
                 </div>
             </div>
             <div class="col-md-2" id="siteQuickLink">
                 <div class="list-group">
                     <a href="#" class="list-group-item list-group-item-action active text-center"
                         aria-current="true">
-                        <img src="" width="64px" height="64px" alt="newz">
+                        <img src="/icons/icon2.png" width="64px" height="64px" alt="newz">
                     </a>
                     <a href="https://taic.ictc.go.tz/" class="list-group-item list-group-item-action"><span>TAIC
                             2023</span></a>

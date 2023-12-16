@@ -33,14 +33,20 @@
                         <div class="rd-navbar-nav-wrap" id="rd-navbar-nav-wrap-1">
                             <ul class="rd-navbar-nav">
                                 <li class="rd-nav-item ">
-                                  <a class="rd-nav-link active" href="">Home</a></li>
+                                  <nuxt-link to="/" class="rd-nav-link active">HOME</nuxt-link>
+                                </li>
                                 <li class="rd-nav-item ">
-                                  <a class="rd-nav-link" href="">About</a></li>
+                                    <nuxt-link to="/about" class="rd-nav-link">ABOUT</nuxt-link>
+                                </li>
                                 <li class="rd-nav-item ">
-                                  <a class="rd-nav-link" href="">ICT PROMOTION</a></li>
+                                    <nuxt-link to="/ict/promotion" class="rd-nav-link">ICT PROMOTION</nuxt-link>
+                                </li>
                                 <li class="rd-nav-item ">
-                                  <a class="rd-nav-link" href="">ICT INVESTMENT</a></li>
-
+                                    <nuxt-link to="/ict/investment" class="rd-nav-link">ICT INVESTMENT</nuxt-link>
+                                </li>
+                                <li class="rd-nav-item ">
+                                    <nuxt-link to="/contact" class="rd-nav-link">CONTACTS</nuxt-link>
+                                </li>
                                 <li class="rd-nav-item">
                                     <a class="rd-nav-link" href="#">SERVICES</a>
                                     <!-- RD Navbar Dropdown-->
@@ -109,7 +115,6 @@
                                         {{--</li>--}} -->
                                     </ul>
                                 </li>
-                                <li class="rd-nav-item "><a class="rd-nav-link" href="">Contacts</a></li>
                             </ul>
                         </div>
                     </div>

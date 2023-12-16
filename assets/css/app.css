@@ -3,3 +3,36 @@
     background-color: #333316;
     padding: .4rem .6rem;    
 }
+#siteQuickLink{
+    color:white;
+    margin: .8rem auto;
+    
+}
+#siteQuickLink a {
+background-color: #f5f8fa;
+color:#0a9287;
+font-size: medium;
+}
+
+#siteQuickLink a:hover{
+background-color: #d7e6ec;
+}
+
+#siteQuickLink a img{
+animation: combinedAnimation 5s ease-in-out infinite; /* Adjust duration as needed */
+
+}
+
+@keyframes combinedAnimation {
+0%, 100% {
+  
+  transform: translate(40px,0);
+}
+50% {
+  transform: translate(-40px,0);
+}
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

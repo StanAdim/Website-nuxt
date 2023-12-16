@@ -1,8 +1,12 @@
-<script lang="ts" setup></script>
+<script setup>
+definePageMeta({
+  layout: 'backend'
+})
+</script>
 
 <template>
   <div>
-    Page: Crm
+    Page: Index
   </div>
 </template>
 

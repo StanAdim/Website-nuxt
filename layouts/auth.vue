@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    Page: Investment
+    <slot />
   </div>
 </template>
 

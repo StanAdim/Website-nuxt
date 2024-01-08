@@ -5,6 +5,12 @@ definePageMeta({
 useHead({
     title:'ICTC - Login'
 })
+const userCredential = ref({})
+const login = ()=> {
+ 
+    console.log(typeof(userCredential.email))
+  
+}
 </script>
 
 <template>
@@ -18,7 +24,7 @@ useHead({
           alt=""
         />
       </div>
-      <form class="space-y-6">
+      <form class="space-y-6" @submit.prevent="login">
         <div>
           <label class="block text-gray-700 font-bold mb-2" for="email">
             Email
@@ -26,7 +32,7 @@ useHead({
           <input
             class="w-full px-4 py-2 rounded-lg border border-gray-400"
             id="email"
-            name="email"
+            v-model="userCredential.email"
             type="email"
           />
         </div>
@@ -37,7 +43,7 @@ useHead({
           <input
             class="w-full px-4 py-2 rounded-lg border border-gray-400"
             id="password"
-            name="password"
+            v-model="userCredential.password"
             type="password"
           />
         </div>
@@ -52,3 +58,4 @@ useHead({
     </div>
   </div>
 </template>
+
